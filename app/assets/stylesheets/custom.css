@@ -1,0 +1,52 @@
+.card {
+  margin-bottom: 1.5rem;
+}
+
+.custom-card .card-body {
+  background-color: #f8f9fa; /* Light grey background color */
+}
+
+.custom-card .card-footer {
+  background-color: transparent; /* Ensure the footer does not get a background color */
+  border-top: none; /* Remove the border between body and footer */
+  display: flex;
+  justify-content: flex-start; /* Align buttons to the left */
+  align-items: center; /* Center buttons vertically */
+}
+
+.custom-card .card-footer .btn {
+  margin-top: 0.5rem; /* Add margin to the top of the buttons */
+}
+
+.custom-card .card-footer .btn + .btn {
+  margin-left: 0.5rem; /* Add margin between buttons */
+}
+
+.navbar {
+  margin-bottom: 1.5rem;
+}
+
+.btn-custom {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: calc(2.25rem + 2px); /* Match the height of the Bootstrap form-control */
+  white-space: nowrap; /* Prevent text from breaking */
+}
+
+.btn-add-flat {
+  min-width: 100px; /* Ensure Add Flat button is a bit longer */
+}
+
+.navbar .form-control {
+  display: flex;
+  align-items: center;
+}
+
+.content-container {
+  margin-top: 100px; /* Increase this value to add more space */
+}
+
+.icon-text {
+  margin-left: 0.75rem; /* Adjust this value as needed for your spacing */
+}
